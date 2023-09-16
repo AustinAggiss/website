@@ -4,31 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.min.css">
     <title>Austin's Dev Site</title>
 </head>
 
-<body class="bg-gray-200 dark:bg-slate-900 px-4">
+<body class="font-sans bg-gray-200 dark:bg-slate-900 px-4">
     <div class="flex flex-col items-center justify-center min-h-screen">
         <div class="flex flex-col md:flex-row items-center justify-center gap-24">
             <div class="text-center max-w-md md:text-right">
-                <h1 class="text-4xl font-extrabold mb-8"><span
-                        class="text-transparent bg-clip-text bg-gradient-to-r dark:from-purple-500 dark:to-pink-500 from-yellow-400 via-[#EEA30C] to-orange-500 animate-text">Austin</span><span
-                        class="dark:text-white">'s Dev Site</span></h1>
-                <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">A temporary iteration of this site until I have
-                    time to use Tailwind to it's full potential! Font coming soon!</p>
-                <div class="py-4 flex flex-wrap gap-4 justify-center md:justify-end">
-                    <a href="https://chrome.google.com/webstore/detail/betterseqta/boikofabjaholheekefimfojfncpjfib">
-                        <button href="https://github.com/crazypersonalph/betterseqta"
-                            class="bg-white text-black text-lg font-semibold px-4 py-3 rounded-lg">
-                            GitHub Profile <i class="fab fab fa-github"></i>
+                <p class="text-4xl font-bold text-gray-700 dark:text-gray-300 mb-4">Hey there 👋</p>
+                <h1 class="text-6xl font-extrabold mb-8">
+                    <span class="dark:text-white text-gray-700">I'm </span>
+                    <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r dark:from-purple-500 dark:to-pink-500 from-yellow-400 via-[#EEA30C] to-orange-500">Austin</span>
+                </h1>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-end">
+                    <a href="https://github.com/austinaggiss">
+                        <button
+                            class="transition-all bg-slate-900 text-white dark:bg-white dark:text-black text-xl font-semibold px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r hover:dark:from-purple-500 hover:dark:to-pink-500 hover:from-yellow-400 hover:via-[#EEA30C] hover:to-orange-500">
+                            GitHub <i class="fab fa-github"></i>
                         </button>
                     </a>
                 </div>
             </div>
             <div class="flex justify-center">
-                <img src="https://placehold.co/500x300" height="300" width="500" alt="Product Image"
-                    class="max-w-full h-auto rounded-lg">
+                <img src="./assets/img/profile.png" height="300" width="300" alt="Product Image"
+                    class="max-w-full h-auto rounded-full">
             </div>
         </div>
     </div>
